@@ -1,1 +1,1 @@
-"# Classe-Abstrata" 
+Exercício utilizando classes abstratas
