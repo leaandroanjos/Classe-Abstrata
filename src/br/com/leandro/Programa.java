@@ -24,7 +24,7 @@ public class Programa {
         Scanner s = new Scanner(System.in);
         PessoaJuridica pessoa = new PessoaJuridica();
         System.out.println("Digite seu nome: ");
-        String nome = s.next();
+        String nome = s.nextLine();
         pessoa.setNome(nome);
         System.out.println("Digite seu cnpj: ");
         Long cnpj = s.nextLong();
@@ -41,7 +41,7 @@ public class Programa {
         Scanner s = new Scanner(System.in);
         PessoaFisica pessoa = new PessoaFisica();
         System.out.println("Digite seu nome: ");
-        String nome = s.next();
+        String nome = s.nextLine();
         pessoa.setNome(nome);
         System.out.println("Digite sua idade: ");
         int idade = s.nextInt();
